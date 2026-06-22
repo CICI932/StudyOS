@@ -1,0 +1,9 @@
+[
+  { "id": "primeira_tarefa", "nome": "Primeira tarefa", "descricao": "Concluir a primeira tarefa.", "tipo": "totalConcluidos", "valor": 1 },
+  { "id": "sete_dias", "nome": "7 dias seguidos", "descricao": "Estudar por 7 dias em sequencia.", "tipo": "sequencia", "valor": 7 },
+  { "id": "trinta_dias", "nome": "30 dias seguidos", "descricao": "Estudar por 30 dias em sequencia.", "tipo": "sequencia", "valor": 30 },
+  { "id": "cem_assuntos", "nome": "100 assuntos concluidos", "descricao": "Concluir 100 unidades de estudo.", "tipo": "totalConcluidos", "valor": 100 },
+  { "id": "mestre_programacao", "nome": "Mestre da Programacao", "descricao": "Concluir Tecnologia e Programacao.", "tipo": "materia", "valor": "Tecnologia" },
+  { "id": "mestre_redacao", "nome": "Mestre da Redacao", "descricao": "Concluir Redacao.", "tipo": "materia", "valor": "Redacao" },
+  { "id": "mestre_ingles", "nome": "Mestre do Ingles", "descricao": "Concluir Ingles.", "tipo": "materia", "valor": "Ingles" }
+]

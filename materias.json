@@ -1,0 +1,96 @@
+{
+  "materias": [
+    {
+      "id": "IFBA",
+      "nome": "IFBA",
+      "icone": "school",
+      "cor": "#4D8DFF",
+      "ordem": 1,
+      "categorias": [
+        { "nome": "Matematica - Aritmetica", "assuntos": ["Operacoes basicas", "Fracoes", "Numeros decimais", "Potenciacao", "Radiciacao", "MMC", "MDC", "Razao e proporcao", "Regra de tres simples", "Regra de tres composta", "Porcentagem"] },
+        { "nome": "Matematica - Algebra basica", "assuntos": ["Expressoes algebricas", "Produtos notaveis", "Fatoracao", "Equacoes do 1 grau", "Equacoes do 2 grau", "Inequacoes"] },
+        { "nome": "Matematica - Funcoes", "assuntos": ["Conceito de funcao", "Funcao afim", "Funcao quadratica", "Funcao exponencial", "Funcao logaritmica", "Graficos de funcoes"] },
+        { "nome": "Matematica - Geometria plana", "assuntos": ["Angulos", "Triangulos", "Quadrilateros", "Circunferencia", "Poligonos", "Area de figuras planas"] },
+        { "nome": "Matematica - Geometria espacial", "assuntos": ["Prismas", "Piramides", "Cilindro", "Cone", "Esfera", "Volume e area"] },
+        { "nome": "Matematica - Estatistica e probabilidade", "assuntos": ["Media, moda e mediana", "Graficos e tabelas", "Probabilidade basica", "Analise de dados"] },
+        { "nome": "Matematica - Financeira", "assuntos": ["Juros simples", "Juros compostos", "Descontos", "Capital e montante"] },
+        { "nome": "Portugues - Interpretacao de texto", "assuntos": ["Leitura e compreensao", "Inferencia textual", "Tipos de texto", "Generos textuais"] },
+        { "nome": "Portugues - Gramatica", "assuntos": ["Ortografia", "Acentuacao", "Pontuacao", "Classes gramaticais", "Sintaxe", "Concordancia verbal", "Concordancia nominal", "Regencia verbal e nominal", "Crase"] },
+        { "nome": "Portugues - Redacao aplicada", "assuntos": ["Estrutura textual", "Coesao e coerencia", "Conectivos", "Argumentacao"] },
+        { "nome": "Fisica", "assuntos": ["Cinematica", "Movimento uniforme", "Movimento uniformemente variado", "Leis de Newton", "Trabalho e energia", "Potencia", "Termologia", "Ondulatoria", "Optica", "Eletricidade basica"] },
+        { "nome": "Quimica", "assuntos": ["Materia e energia", "Atomos e elementos", "Tabela periodica", "Ligacoes quimicas", "Reacoes quimicas", "Funcoes inorganicas", "Estequiometria", "Solucoes", "Quimica organica basica"] },
+        { "nome": "Biologia - Citologia", "assuntos": ["Membrana plasmatica", "Transporte celular", "Citoplasma", "Organelas celulares", "Nucleo", "Divisao celular"] },
+        { "nome": "Biologia - Histologia", "assuntos": ["Tecidos epiteliais", "Tecidos conjuntivos", "Tecidos musculares", "Tecido nervoso"] },
+        { "nome": "Biologia - Fisiologia humana", "assuntos": ["Sistema digestorio", "Sistema respiratorio", "Sistema circulatorio", "Sistema nervoso", "Sistema endocrino", "Sistema excretor", "Sistema reprodutor", "Sistema imunologico"] },
+        { "nome": "Biologia - Genetica", "assuntos": ["Leis de Mendel", "Genetica molecular", "DNA e RNA", "Mutacao genetica"] },
+        { "nome": "Biologia - Ecologia", "assuntos": ["Cadeias alimentares", "Ecossistemas", "Relacoes ecologicas", "Ciclos biogeoquimicos"] },
+        { "nome": "Biologia - Evolucao", "assuntos": ["Teorias evolutivas", "Selecao natural", "Adaptacao"] },
+        { "nome": "Biologia - Botanica", "assuntos": ["Reino vegetal", "Fisiologia vegetal"] },
+        { "nome": "Biologia - Zoologia", "assuntos": ["Animais invertebrados", "Animais vertebrados"] },
+        { "nome": "Historia", "assuntos": ["Historia do Brasil", "Brasil Colonia", "Brasil Imperio", "Republica", "Historia Geral", "Antiguidade", "Idade Media", "Idade Moderna", "Idade Contemporanea", "Guerras Mundiais"] },
+        { "nome": "Geografia", "assuntos": ["Geografia fisica", "Clima", "Relevo", "Vegetacao", "Hidrografia", "Geografia humana", "Urbanizacao", "Globalizacao", "Geopolitica", "Brasil regional"] }
+      ]
+    },
+    {
+      "id": "Ingles",
+      "nome": "Ingles",
+      "icone": "languages",
+      "cor": "#4CAF50",
+      "ordem": 2,
+      "categorias": [
+        { "nome": "Ingles expandido", "assuntos": ["Verb To Be", "Simple Present", "Present Continuous", "Simple Past", "Past Continuous", "Future will going to", "Present Perfect", "Modal Verbs", "Prepositions", "Phrasal Verbs", "Vocabulary building", "Reading comprehension", "Listening comprehension", "Writing basics"] }
+      ]
+    },
+    {
+      "id": "Informatica",
+      "nome": "Informatica",
+      "icone": "monitor",
+      "cor": "#2563EB",
+      "ordem": 3,
+      "categorias": [
+        { "nome": "Fundamentos", "assuntos": ["Hardware", "Software", "Sistemas operacionais", "Redes de computadores", "Banco de dados", "Seguranca da informacao", "Algoritmos", "Logica de programacao", "Inteligencia artificial", "Computacao em nuvem"] }
+      ]
+    },
+    {
+      "id": "Tecnologia",
+      "nome": "Tecnologia e Programacao",
+      "icone": "code",
+      "cor": "#7C3AED",
+      "ordem": 4,
+      "categorias": [
+        { "nome": "Base", "assuntos": ["Logica de programacao", "Algoritmos"] },
+        { "nome": "Front-end", "assuntos": ["HTML", "CSS", "JavaScript", "TypeScript", "UX UI"] },
+        { "nome": "Back-end", "assuntos": ["Node.js", "APIs REST", "Autenticacao", "Banco de dados SQL", "Banco de dados NoSQL"] },
+        { "nome": "Linguagens", "assuntos": ["Python", "C", "C++", "Java"] },
+        { "nome": "Estruturas avancadas", "assuntos": ["Estruturas de dados", "Programacao orientada a objetos", "Arquitetura de software"] },
+        { "nome": "Ferramentas", "assuntos": ["Git", "GitHub", "Docker", "Linux"] },
+        { "nome": "Conceitos modernos", "assuntos": ["Desenvolvimento web", "Desenvolvimento mobile", "Inteligencia artificial", "Prompt engineering"] }
+      ]
+    },
+    {
+      "id": "Administracao",
+      "nome": "Administracao",
+      "icone": "briefcase",
+      "cor": "#F59E0B",
+      "ordem": 5,
+      "categorias": [
+        { "nome": "Administracao", "assuntos": ["Administracao geral", "Planejamento estrategico", "Organizacao", "Lideranca", "Gestao de pessoas", "Empreendedorismo", "Marketing", "Marketing digital", "Financas", "Contabilidade basica", "Gestao financeira", "Fluxo de caixa", "Logistica", "Gestao de projetos", "Atendimento ao cliente", "Comunicacao empresarial", "Negociacao", "Etica profissional", "Produtividade", "Gestao do tempo"] }
+      ]
+    },
+    {
+      "id": "Redacao",
+      "nome": "Redacao",
+      "icone": "pen",
+      "cor": "#E74C3C",
+      "ordem": 6,
+      "categorias": [
+        { "nome": "Redacao expandida", "assuntos": ["Estrutura dissertativo-argumentativa", "Introducao", "Desenvolvimento", "Conclusao", "Tese", "Argumentacao", "Repertorio sociocultural", "Coesao textual", "Coerencia textual", "Conectivos", "Competencia 1 norma padrao", "Competencia 2 compreensao do tema", "Competencia 3 argumentacao", "Competencia 4 coesao", "Competencia 5 proposta de intervencao", "Interpretacao de temas", "Producao semanal de redacao", "Correcao e reescrita"] }
+      ]
+    }
+  ],
+  "padroes": {
+    "tempo": 45,
+    "dificuldade": "Media",
+    "xp": 20
+  }
+}

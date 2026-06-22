@@ -1,0 +1,8 @@
+{
+  "nome": "Cibele",
+  "diasEstudo": [1, 2, 3, 4, 5, 6],
+  "tempoDiario": 180,
+  "maxAssuntos": 4,
+  "materiasAtivas": ["IFBA", "Informatica", "Tecnologia", "Ingles", "Administracao", "Redacao"],
+  "primeiroAcesso": true
+}

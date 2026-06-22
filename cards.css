@@ -1,0 +1,67 @@
+.task-card, .subject-card, .library-card, .achievement-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: 0 12px 35px rgba(31, 41, 55, .06);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.task-card:hover, .subject-card:hover, .library-card:hover, .achievement-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  border-color: #dbe7ff;
+}
+.task-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+.task-title { display: grid; gap: 5px; }
+.task-title strong { font-size: 1.05rem; }
+.task-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 16px;
+}
+.status {
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: .78rem;
+  font-weight: 800;
+}
+.status.Pendente { background: #f3f4f6; color: #4b5563; }
+.status.Em.andamento { background: #dbeafe; color: #1d4ed8; }
+.status.Concluido, .status.Concluído { background: #dcfce7; color: #15803d; }
+.status.Revisao, .status.Revisão { background: #fef3c7; color: #b45309; }
+.status.Atrasado { background: #fee2e2; color: #b91c1c; }
+.subject-card h3 { display: flex; align-items: center; gap: 9px; margin-bottom: 12px; }
+.category {
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+.category:first-of-type { border-top: 0; }
+.topic-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  padding: 9px 0;
+  color: #374151;
+}
+.topic-row small { color: var(--muted); }
+.library-card { display: grid; gap: 8px; }
+.achievement-card.locked { opacity: .48; }
+.redacao-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+}
+@media (max-width: 640px) {
+  .task-head, .topic-row, .redacao-item { grid-template-columns: 1fr; }
+}
